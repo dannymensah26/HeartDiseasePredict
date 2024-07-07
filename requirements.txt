@@ -4,4 +4,8 @@ seaborn
 scikit-learn
 scipy
 dill
--e .
+Flask
+dill
+flask_cors
+lime
+#-e .
