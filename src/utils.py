@@ -30,13 +30,8 @@ def save_object(file_path, obj):
 def evaluate_models(X_train, y_train,X_test,y_test,models):
     try:
         report = {}
-        for i in range(len(list(models))):
+        for i in range(len(models)):
             model = list(models.values())[i]
-            #para=param[list(models.keys())[i]]
-
-            #gs = GridSearchCV(model,para,cv=3)
-            #gs.fit(X_train, y_train)
-            #model.set_params(**gs.best_params_)
 
             # Train model
             model.fit(X_train,y_train)
@@ -59,19 +54,19 @@ def evaluate_models(X_train, y_train,X_test,y_test,models):
         logging.info('Exception occured during model training')
         raise CustomException(e,sys)
     
-'''
+
 def model_metrics(true, predicted):
     try :
         precision = precision_score(true, predicted, average='weighted')
         recall = recall_score(true, predicted, average='weighted')
         f1 = f1_score(true, predicted, average='weighted')
-        report = classification_report(true, predicted, average='weighted' )
+        report = classification_report(true, predicted)
         return precision, recall, f1, report
 
     except Exception as e:
         logging.info('Exception Occured while evaluating metric')
         raise CustomException(e,sys)
-    
+  
 
 def print_evaluated_results(X_train,y_train,X_test,y_test,model):
     try:
@@ -102,8 +97,7 @@ def print_evaluated_results(X_train,y_train,X_test,y_test,model):
         logging.info('Exception occured during printing of evaluated results')
         raise CustomException(e,sys)
 
-'''
-    
+
 def load_object(file_path):
     try:
         with open(file_path,'rb') as file_obj:
