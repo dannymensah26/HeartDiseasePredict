@@ -45,11 +45,11 @@ Run
 
 To Run the Application
 
-python app.py
+stream run app.py
 
-Deployement on Heroku
+Deployement on Streamlit
 
-Install Heroku CLI as this makes it easy to create and manage your Heroku apps directly from the terminal. You can download it from here.
+Install Streamlit as this makes it easy to create and manage your Streamlit apps directly from the terminal. You can download it from here.
 
 next step would be to follow the instruction given on Heroku Documentation to deploy a web app.
 
