@@ -1,8 +1,9 @@
-# END TO END MACHINE LEARNING PROJECT
+# END TO END MACHINE LEARNING PROJECT DEPLOYMENT ON STREAMLIT
 
 Overview
 
-A simple web application which uses Machine Learning algorithm to predict the heart condition of a person by providing some inputs about the person health like age, gender, blood pressure, cholesterol level etc built using Flask and deployed on Heroku.
+A simple web application which uses Machine Learning algorithm to predict the heart condition of a person by providing some inputs about the person health like age, gender, blood pressure, cholesterol level etc built using streamlit and deployed on Streamlit.
+
 Motivation
 
 As being a Data and ML enthusiast I have tried many different projects related to the subject but what I have realised is that Deploying your machine learning model is a key aspect of every ML and Data science project. Everything thing I had studied or been taught so far in my Data science and ML journey had mostly focused on defining problem statement followed by Data collection and preparation, model building and evaluation process which is of course important for every ML/DS project but what if I want different people to interact with my models, how can I make my model available for end-users? I can't send them jupyter notebooks right!. That's why I wanted to try my hands on complete end-to-end machine learning project.
@@ -27,7 +28,7 @@ Technical Aspect
 This Project is mainly divided into two parts:
 
     Exploring the dataset and traning the model using Sklearn.
-    Building and hosting a flask web app on Heroku.
+    Building and hosting a streamlit App on Streamlit
 
 About the repository Structure :
 
@@ -66,4 +67,4 @@ Future work
 
 Some Useful Resources
 
-    Flask Quickstart Documentation : https://flask.palletsprojects.com/en/1.1.x/quickstart/
+    Streamlit Quickstart Documentation : https://docs.streamlit.io/
