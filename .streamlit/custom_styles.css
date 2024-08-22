@@ -1,0 +1,48 @@
+/* Background Color and Layout */
+body {
+    background-color: #F5F5F5; /* Light gray background for the app */
+  }
+  
+  .stApp {
+    padding: 2rem; /* Adds padding around the entire app */
+  }
+  
+  /* Sidebar Styling */
+  .css-1d391kg { 
+    background-color: #F0F0F0; /* Light gray for sidebar background */
+  }
+  
+  .css-1l1n6m7 {
+    color: #007BFF; /* Blue text for emphasis */
+    font-size: 1.2rem; /* Larger font size for better readability */
+    font-weight: bold; /* Makes the text bold */
+  }
+  
+  /* Custom Borders and Rounded Corners */
+  .css-1v3fvcr {
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 1rem; /* Padding inside the bordered element */
+  }
+  
+  /* Interactive Elements */
+  .stButton {
+    background-color: #007BFF; /* Blue background for buttons */
+    color: #FFFFFF; /* White text color for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    font-size: 1rem; /* Font size for button text */
+  }
+  
+  .stButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Heading and Subheading Styling */
+  h1, h2, h3 {
+    color: #333333; /* Dark gray text for headings */
+    font-family: 'Arial', sans-serif; /* Font family for headings */
+  }
+  
+  .stMarkdown {
+    color: #666666; /* Medium gray text for markdown */
+  }
