@@ -9,7 +9,12 @@ As being a Data and ML enthusiast I have tried many different projects related t
 
     To View the Deployed Application, click on the link given below : Heart Disease Prediction App - https://heartdiseasepredict-nz8hrvjjkwcswccqmtm4yj.streamlit.app/
 
-    To get the Code for Exploratory data analysis/visualisations, different algorithms used and the model evaluation, click on the link mentioned below : Link of jupyter notebook - https://github.com/asthasharma98/Data-Science/blob/main/Heart%20Disease%20Prediction/heart_disease_prediction.ipynb
+    To get the Code for Exploratory data analysis/visualisations, different algorithms used and the model evaluation, click on the link mentioned below : Link of jupyter notebook - 
+EDA:
+https://github.com/dannymensah26/HeartDiseasePredict/blob/main/notebook/EDA.ipynb
+
+Model Building:
+https://github.com/dannymensah26/HeartDiseasePredict/blob/main/notebook/ModelBuilding.ipynb
 
 
 A Demo of the Web App :
