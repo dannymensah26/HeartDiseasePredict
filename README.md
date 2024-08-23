@@ -17,6 +17,10 @@ https://github.com/dannymensah26/HeartDiseasePredict/blob/main/notebook/EDA.ipyn
 Model Building:
 https://github.com/dannymensah26/HeartDiseasePredict/blob/main/notebook/ModelBuilding.ipynb
 
+https://github.com/user-attachments/assets/67a9b933-1345-4439-a0d2-c9507c3957f2
+
+
+
 
 ### A Demo of the Web App :
 
