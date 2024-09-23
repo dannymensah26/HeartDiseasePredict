@@ -52,7 +52,7 @@ To Run the Application
 
 stream run app.py
 
-### Deployement on Streamlit
+### Deployment on Streamlit
 
 Install Streamlit as this makes it easy to create and manage your Streamlit apps directly from the terminal. You can download it from here.
 
